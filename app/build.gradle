@@ -4,18 +4,18 @@ plugins {
 }
 
 android {
-    namespace 'com.driuft.androidkotlindebugging'
-    compileSdk 35
+    namespace = 'com.driuft.androidkotlindebugging'
+    compileSdk = 35
 
     defaultConfig {
-        applicationId "com.driuft.androidkotlindebugging"
-        minSdk 21
+        applicationId = "com.driuft.androidkotlindebugging"
+        minSdk = 21
         //noinspection ExpiredTargetSdkVersion
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        targetSdk = 32
+        versionCode = 1
+        versionName = "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
