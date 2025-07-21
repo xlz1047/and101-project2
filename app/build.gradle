@@ -4,8 +4,8 @@ plugins {
 }
 
 android {
-    namespace = 'com.driuft.androidkotlindebugging'
-    compileSdk = 35
+    namespace 'com.driuft.androidkotlindebugging'
+    compileSdk 36
 
     defaultConfig {
         applicationId = "com.driuft.androidkotlindebugging"
